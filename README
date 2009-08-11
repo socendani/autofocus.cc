@@ -1,1 +1,12 @@
-Autofocus.cc is a web application implementing the Autofocus Time Management System by Mark Forster.
+autofocus.cc 
+------------
+A web application implementing the Autofocus Time Management System by Mark Forster
+
+history
+-------
+Currently this is a non-working release, only intended for testers.
+
+installation
+------------
+1. Upload all files to web server.
+2. Copy Zend Framework 1.9 to library/Zend
