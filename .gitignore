@@ -1,3 +1,6 @@
 
 /application/configs/application.ini
 /library/*
+/.settings/*
+/.buildpath
+/.project
