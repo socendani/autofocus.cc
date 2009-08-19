@@ -6,13 +6,16 @@
 		<?php echo $this->headLink()->appendStylesheet('/public/css/standard.css') ?>
 	</head> 
 	<body>
-		<div id="header">
-				<h1>autofocus.cc</h1>
-		</div>
-		<div id="content"> 
-			<?php echo $this->layout()->content ?>
+		<div id="main">
+			<div id="header">
+					<h1>autofocus.cc <span>alpha</span></h1>
+			</div>
+			<div id="content"> 
+					<?php echo $this->layout()->content ?>
+			</div>
 		</div>
 		<div id="footer">
+			<p>Based&nbsp;on&nbsp;the&nbsp;<a href="http://www.markforster.net/autofocus-system/">Autofocus&nbsp;Time&nbsp;Management&nbsp;System</a>&nbsp;by&nbsp;<a href="http://www.markforster.net/">Mark&nbsp;Forster</a> |&nbsp;Web&nbsp;Application&nbsp;Design&nbsp;&amp;&nbsp;Implementation&nbsp;by&nbsp;<a href="http://andreashofmann.net">Andreas&nbsp;Hofmann</a></p>
 		</div>
 	</body>
 </html>
